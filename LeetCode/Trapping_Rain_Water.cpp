@@ -1,8 +1,7 @@
 class Solution {
 public:
     int trap(vector<int>& height) {
-        // calculate left max and right maxelement for each 
-        // height
+        // calculate left max and right max element for each height[i]
         int n=height.size();
         vector<int> lmax;
         vector<int> rmax;
@@ -29,9 +28,6 @@ public:
         {
             // int trapwater = min(lmax[i], rmax[i])-height[i];
             int trapwater = min(lmax[i], rmax[i])-height[i];
-            if(trapwater<0)
-                continue;
-            
             sum += trapwater;
         }
         
