@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 /*
+// Naive mathod
 void movetoend(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
