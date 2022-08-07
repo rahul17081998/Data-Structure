@@ -62,9 +62,9 @@ int bfs()
             {
                 level[child_n] = level[currNode]+wt;
                 if(wt==1)
-                    dq.push_back(child_n);
+                    dq.push_back(child_n); // if weight is 1
                 else
-                    dq.push_back(child_n);
+                    dq.push_front(child_n); // if weight is 0
             }
         }
     }
