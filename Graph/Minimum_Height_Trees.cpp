@@ -1,4 +1,5 @@
 /*
+Approach:
 The basic idea is "keep deleting leaves layer-by-layer, until reach the root."
 Specifically, first find all the leaves, then remove them. After removing, some nodes will become new leaves. 
 So we can continue remove them. 
