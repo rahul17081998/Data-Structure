@@ -13,6 +13,7 @@ public:
         {
             long newPeopleSharingSecret=dp[max(i-delay, 0)];
             long peopleForgetingSecret=dp[max(i-forget, 0)];
+            // Adding mod to avoid overflow situation
             NoOfPeopleSharingTheSecret += (newPeopleSharingSecret - peopleForgetingSecret + mod )%mod;
             dp[i] = NoOfPeopleSharingTheSecret;
         }
