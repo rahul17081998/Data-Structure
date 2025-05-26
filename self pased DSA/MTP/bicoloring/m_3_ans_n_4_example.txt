@@ -1,0 +1,1088 @@
+n = 4   m = 3   k = 155
+
+
+1 -1 -1 1 
+-1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+1 -1 1 1 
+-1 1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+1 -1 -1 -1 
+-1 -1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+-1 -1 -1 1 
+1 -1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 -1 1 -1 
+-1 1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+1 -1 1 -1 
+1 1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 1 1 1 
+-1 1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+1 1 1 -1 
+-1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+
+
+
+1 1 1 -1 
+-1 1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+
+
+
+-1 -1 -1 1 
+1 1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+
+
+
+-1 -1 -1 -1 
+-1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+1 1 -1 1 
+-1 -1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+
+
+
+1 1 1 1 
+1 1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+
+
+
+-1 -1 -1 1 
+-1 1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 1 -1 1 
+-1 1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+
+
+
+-1 -1 1 -1 
+-1 -1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+
+
+
+1 1 1 -1 
+-1 1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 1 1 -1 
+1 -1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+-1 -1 1 1 
+-1 1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+-1 -1 -1 -1 
+-1 -1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+
+
+
+1 -1 -1 1 
+1 -1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+-1 -1 -1 1 
+-1 1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+
+
+
+1 -1 1 -1 
+1 1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+1 -1 1 -1 
+-1 -1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+
+
+
+-1 -1 1 1 
+1 -1 1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+
+
+
+1 1 1 -1 
+1 -1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+-1 -1 1 -1 
+-1 -1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+-1 1 1 1 
+-1 -1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 1 -1 -1 
+1 1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+1 1 1 -1 
+1 1 -1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+
+
+
+-1 1 -1 -1 
+1 1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+
+
+
+-1 -1 1 1 
+-1 1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+
+
+
+-1 -1 1 -1 
+1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+-1 1 1 -1 
+1 1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+1 1 1 -1 
+1 1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 1 -1 -1 
+1 1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+1 -1 1 1 
+1 1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+1 -1 1 -1 
+-1 -1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+
+
+
+1 -1 -1 -1 
+1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+-1 -1 -1 -1 
+1 -1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+
+
+
+1 -1 -1 1 
+1 1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+1 1 -1 -1 
+1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+
+
+
+1 1 1 1 
+-1 1 1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+-1 1 1 1 
+1 1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+
+
+
+1 -1 1 -1 
+1 -1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+-1 -1 1 1 
+-1 1 -1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+
+
+
+1 1 1 -1 
+-1 1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+
+
+
+1 -1 -1 -1 
+1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+-1 -1 -1 1 
+-1 -1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+
+
+
+-1 -1 -1 1 
+-1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+1 -1 1 -1 
+-1 -1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+-1 1 -1 -1 
+-1 -1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+
+
+
+1 -1 1 -1 
+1 1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+-1 -1 -1 -1 
+-1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+1 1 1 1 
+-1 -1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+
+
+
+-1 1 -1 1 
+1 -1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+-1 -1 1 1 
+1 1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+
+
+
+-1 -1 1 1 
+1 1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+
+
+
+1 1 1 -1 
+-1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 -1 -1 1 
+-1 -1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+
+
+
+1 1 -1 1 
+1 1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+-1 -1 -1 -1 
+-1 1 1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+
+
+
+-1 1 1 1 
+-1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+1 1 1 -1 
+-1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+1 -1 1 -1 
+1 -1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 1 1 1 
+-1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+
+
+
+1 1 1 1 
+1 -1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+-1 1 -1 -1 
+-1 -1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+
+
+
+1 1 1 -1 
+1 1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+-1 -1 1 -1 
+-1 -1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+
+
+
+-1 -1 -1 1 
+1 -1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+
+
+
+-1 -1 -1 1 
+1 -1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 -1 -1 -1 
+-1 -1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+-1 1 1 1 
+1 -1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+-1 1 -1 -1 
+-1 -1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+
+
+
+-1 -1 1 -1 
+1 1 -1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+1 -1 -1 -1 
+1 -1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+-1 1 1 -1 
+-1 1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+-1 -1 1 1 
+1 1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 1 1 1 
+-1 -1 -1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+
+
+
+-1 -1 1 -1 
+1 1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+-1 1 -1 -1 
+1 1 -1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+
+
+
+1 1 1 -1 
+1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 1 -1 1 
+1 -1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+-1 1 1 -1 
+1 -1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+-1 1 1 -1 
+1 -1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+-1 -1 -1 1 
+-1 -1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 1 -1 -1 
+-1 -1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+-1 -1 1 -1 
+-1 -1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+-1 -1 -1 1 
+1 1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+
+
+
+-1 -1 1 1 
+1 -1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+
+
+
+-1 -1 1 -1 
+-1 -1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+
+
+
+1 -1 1 -1 
+-1 1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+
+
+
+-1 1 -1 1 
+1 -1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+-1 -1 -1 -1 
+1 1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+
+
+
+1 -1 1 1 
+1 1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+
+
+
+1 -1 -1 1 
+-1 1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+-1 -1 -1 -1 
+-1 -1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+1 1 1 1 
+-1 1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+1 1 1 -1 
+-1 -1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+
+
+
+-1 -1 -1 -1 
+1 -1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+1 1 -1 1 
+1 -1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+
+
+
+1 -1 -1 -1 
+1 1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+-1 -1 1 1 
+1 1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+-1 -1 1 -1 
+1 1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+1 -1 -1 -1 
+-1 1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 -1 1 1 
+1 -1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+1 -1 -1 -1 
+-1 1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+1 -1 1 -1 
+-1 -1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+
+
+
+1 1 1 -1 
+1 1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 -1 -1 -1 
+1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+-1 -1 1 1 
+1 -1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+-1 -1 -1 -1 
+1 -1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+1 1 -1 1 
+1 -1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+-1 -1 1 -1 
+-1 -1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+
+
+
+-1 -1 -1 -1 
+-1 -1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+
+
+
+1 -1 -1 -1 
+-1 1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+1 -1 1 -1 
+1 -1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+
+
+
+-1 -1 -1 -1 
+1 -1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+
+
+
+1 1 1 1 
+1 1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+
+
+
+1 1 1 1 
+1 -1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+1 1 -1 -1 
+-1 1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+
+
+
+1 1 1 1 
+-1 1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+
+
+
+1 -1 1 -1 
+-1 1 1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+1 -1 1 1 
+-1 1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+-1 1 1 -1 
+1 -1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+1 -1 1 1 
+1 -1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+1 -1 1 -1 
+-1 -1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+
+
+
+1 -1 -1 -1 
+-1 -1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+1 -1 -1 -1 
+1 -1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+1 1 1 1 
+1 1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+
+
+
+1 1 1 -1 
+1 1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+
+
+
+1 1 -1 -1 
+1 -1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+-1 -1 -1 -1 
+1 1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+
+
+
+1 -1 -1 -1 
+-1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+1 -1 -1 1 
+-1 1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+
+
+
+-1 1 -1 1 
+-1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+
+
+
+1 -1 1 1 
+-1 1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+
+
+
+1 -1 1 1 
+-1 1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+1 -1 1 1 
+-1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+1 1 -1 -1 
+1 -1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+-1 1 -1 1 
+-1 1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+
+
+
+-1 1 1 -1 
+-1 -1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+1 1 1 1 
+1 1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+1 -1 -1 1 
+-1 -1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+-1 -1 1 -1 
+1 1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+-1 -1 1 1 
+-1 1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+
+
+
+-1 1 1 1 
+-1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+1 1 1 -1 
+-1 1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+
+
+
+-1 -1 1 1 
+-1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+
+
+
+-1 1 1 1 
+-1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+
+
+
+1 -1 -1 -1 
+1 1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+
+
+
+-1 1 -1 1 
+-1 -1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+
+
+
+-1 1 -1 -1 
+-1 -1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+
+
+
+-1 -1 1 1 
+1 1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+
+
+

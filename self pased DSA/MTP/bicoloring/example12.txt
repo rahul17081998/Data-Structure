@@ -1,0 +1,83 @@
+n = 8   m = 4   k = 10
+
+
+1 -1 -1 -1 -1 -1 -1 -1 
+-1 1 -1 -1 -1 1 1 -1 
+1 -1 -1 1 1 -1 -1 -1 
+-1 -1 1 1 1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 0  -------  S = 
+
+
+-1 -1 -1 1 1 -1 1 1 
+-1 1 -1 1 1 1 -1 -1 
+1 1 1 1 1 1 -1 1 
+-1 1 -1 1 1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 7 
+Effective Method: Imbalance = 0  -------  S = 
+
+
+-1 -1 1 1 1 1 -1 1 
+1 -1 -1 -1 1 -1 1 1 
+-1 1 -1 1 -1 1 -1 1 
+-1 -1 -1 -1 1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 5 
+Effective Method: Imbalance = 0  -------  S = 
+
+
+1 1 -1 -1 -1 1 1 1 
+-1 1 1 1 1 1 1 -1 
+1 1 -1 1 -1 -1 -1 1 
+-1 1 -1 -1 1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 5 
+Effective Method: Imbalance = 0  -------  S = 
+
+
+1 -1 1 1 -1 1 -1 1 
+-1 -1 -1 -1 -1 -1 1 -1 
+1 1 -1 -1 -1 1 1 1 
+1 1 -1 -1 1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 7 
+Effective Method: Imbalance = 0  -------  S = 
+
+
+1 -1 -1 1 -1 -1 -1 -1 
+1 -1 1 1 -1 -1 -1 1 
+-1 1 -1 -1 -1 -1 1 -1 
+-1 -1 -1 -1 1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 0  -------  S = 
+
+
+1 -1 -1 1 -1 1 -1 -1 
+1 1 -1 -1 1 1 1 -1 
+-1 -1 1 -1 1 -1 1 -1 
+-1 -1 -1 1 1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 4 5 
+Effective Method: Imbalance = 0  -------  S = 
+
+
+1 1 1 -1 1 1 1 -1 
+-1 1 1 1 1 -1 -1 -1 
+1 -1 -1 1 1 1 -1 1 
+1 1 1 -1 -1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 7 8 
+Effective Method: Imbalance = 0  -------  S = 
+
+
+-1 -1 1 -1 -1 1 -1 -1 
+1 1 1 1 1 1 1 1 
+-1 -1 -1 -1 -1 1 -1 -1 
+1 1 -1 -1 -1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 4 6 
+Effective Method: Imbalance = 0  -------  S = 
+
+
+-1 1 -1 -1 1 1 -1 1 
+-1 -1 1 -1 1 1 -1 -1 
+-1 -1 1 1 -1 1 1 1 
+1 1 -1 -1 -1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0  -------  S = 
+
+

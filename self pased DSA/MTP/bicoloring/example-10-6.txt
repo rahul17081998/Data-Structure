@@ -1,0 +1,7004 @@
+n = 4   m = 3   k = 1000
+
+
+-1 1 -1 1 
+1 -1 1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 -1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 -1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+1 1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+-1 -1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+-1 -1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 -1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 -1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 -1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 -1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+1 1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 -1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 -1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 1 1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 -1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 -1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 -1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+1 1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+-1 -1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 -1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 -1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+-1 -1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 -1 1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 -1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 -1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 -1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 1 -1 
+-1 1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+1 -1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+-1 -1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 -1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 1 1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 -1 1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+1 1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 -1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 -1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 1 1 -1 
+-1 -1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 1 -1 
+1 1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 -1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+-1 1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+-1 -1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 -1 -1 1 
+1 1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+1 1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 -1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+-1 -1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+-1 -1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 -1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 -1 1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 -1 -1 1 
+-1 -1 1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+1 -1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 -1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+-1 -1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 -1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 -1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 -1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+1 1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+-1 -1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 -1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 -1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 -1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 -1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+1 1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 -1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+-1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+-1 -1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 -1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 -1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+1 1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 -1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 -1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 -1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 -1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 -1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 1 1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 1 -1 -1 
+-1 -1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+-1 -1 1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 -1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 -1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 -1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 -1 1 
+1 -1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+-1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+1 1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 -1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+1 -1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 1 1 
+-1 -1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 -1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 -1 -1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+1 1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+1 -1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+1 -1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 -1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 -1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+-1 -1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+-1 -1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 -1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 -1 1 -1 
+1 1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+1 -1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 -1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 -1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 -1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 -1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 -1 1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 -1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+-1 -1 1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 -1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+-1 1 1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 -1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+-1 1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 -1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 -1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 -1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+1 -1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 -1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 -1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 -1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+-1 1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 1 1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 -1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+1 -1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 -1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+1 1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+-1 1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 -1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+-1 1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+-1 -1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 -1 -1 
+-1 1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+-1 -1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 -1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 1 1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+1 -1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+-1 1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+1 -1 1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 -1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 -1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+1 -1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 -1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 -1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 -1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+1 1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 -1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+-1 -1 1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 1 1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 -1 1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+-1 -1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 1 1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+1 -1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+-1 1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 -1 -1 
+-1 -1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+-1 -1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+-1 -1 1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+-1 1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+1 1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 -1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 -1 -1 -1 
+1 -1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 1 -1 
+-1 1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 -1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+1 -1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 -1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 -1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+-1 1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+1 1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 -1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 1 -1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+1 1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 -1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+1 1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 -1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+1 -1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 -1 1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+-1 -1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+-1 -1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+-1 1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 -1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 -1 1 
+-1 -1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 1 -1 
+1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+-1 -1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 -1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 -1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 1 1 
+1 1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+-1 -1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 -1 -1 
+-1 1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+-1 -1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 1 -1 
+1 1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+1 1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 1 1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 -1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 -1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 -1 1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 -1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 -1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 -1 -1 
+-1 1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+-1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+1 1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 -1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+-1 1 1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+1 -1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+1 -1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+1 -1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 -1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+-1 -1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+1 -1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+1 -1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+-1 1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 -1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 -1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 -1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 1 1 1 
+1 -1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 -1 1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+-1 -1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+-1 1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+-1 1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+-1 -1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 1 1 
+1 -1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+1 -1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 -1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 -1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 1 1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 -1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 -1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+-1 -1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+1 -1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 -1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 -1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 -1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+-1 -1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+-1 -1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+1 -1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 -1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+1 1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 -1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+-1 1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 -1 1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 -1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 -1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 -1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+-1 1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 -1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+1 1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 -1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 -1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+-1 -1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 -1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 -1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 -1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 -1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+-1 1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+-1 1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 -1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+-1 1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 -1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+1 1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 -1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 -1 1 
+-1 -1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 -1 1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+-1 -1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+-1 1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 -1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 -1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 -1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 -1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+-1 1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 -1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+1 -1 1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 -1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 -1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+1 1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+-1 -1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+-1 -1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+-1 1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 -1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 -1 -1 
+1 -1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+1 1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+1 1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+-1 -1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+-1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 -1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+-1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+-1 1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 -1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 -1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+-1 -1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 -1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+-1 -1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 -1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+-1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+-1 1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 1 1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+1 -1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+-1 1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+-1 1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+1 1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+-1 -1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+-1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 -1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+-1 -1 1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 -1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 -1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 -1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+-1 1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 -1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 -1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+1 -1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 1 1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 -1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+1 1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+-1 -1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 -1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 1 1 1 
+1 -1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 1 -1 
+-1 -1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 -1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+-1 1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 -1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+-1 1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 -1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 -1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+-1 1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 -1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 -1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 -1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 -1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 -1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+1 1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+-1 1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+1 1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 -1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 -1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+-1 -1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 -1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 -1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 -1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 -1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 -1 1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 -1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 -1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 -1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 -1 1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+-1 1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 -1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+1 -1 1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+-1 1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 1 1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+1 -1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 1 1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+1 -1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+1 -1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 -1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 -1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+1 -1 1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 1 -1 1 
+-1 1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+1 1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 -1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+1 1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 -1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+1 -1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+-1 1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 -1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+-1 -1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 -1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 1 1 1 
+-1 1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+1 -1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+-1 -1 1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 -1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+-1 1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+-1 1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+-1 1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 -1 -1 1 
+1 -1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 1 1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 -1 -1 
+-1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+-1 1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 -1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 -1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 -1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 -1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 -1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+1 1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 -1 -1 
+1 1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 -1 1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 1 1 
+1 1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+1 1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+1 1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+-1 -1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 -1 1 
+-1 -1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+-1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 -1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 -1 -1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+-1 1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 -1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 -1 -1 -1 
+-1 -1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 -1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 -1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+-1 1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 -1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 1 1 
+-1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 -1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 -1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 -1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+-1 1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 -1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 -1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 -1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 -1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 1 1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+1 1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 1 -1 
+1 1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+-1 1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 -1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 -1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 -1 -1 
+1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 -1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 -1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 -1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 -1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 -1 1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 -1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+-1 -1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 -1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 -1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 -1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 -1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 -1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+-1 -1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 -1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 -1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 1 1 -1 
+-1 1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+-1 1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+-1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+1 1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 -1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 -1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+1 1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 -1 1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 -1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+-1 -1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 -1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 -1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+-1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 -1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 -1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+-1 -1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+1 1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+1 -1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+-1 -1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 -1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 1 1 
+1 1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+-1 1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 -1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 -1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+1 1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 -1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 -1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+-1 -1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+1 1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 -1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+-1 1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 -1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 -1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+1 1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+-1 1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+-1 -1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+-1 1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 -1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+-1 -1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+-1 -1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+-1 -1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+-1 -1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+1 1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+1 1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 1 
+-1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 -1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 -1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+-1 1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+-1 1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 -1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 -1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+-1 -1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 -1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 1 1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+-1 -1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 -1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 -1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 -1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 -1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 -1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 -1 1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+1 -1 1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 -1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+1 -1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 -1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+1 1 1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+-1 -1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 -1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 -1 -1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 1 1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+1 -1 1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 -1 1 
+-1 1 -1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+-1 -1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 -1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 1 
+-1 1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 -1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 -1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+1 1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 -1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+-1 1 1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 1 1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 -1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 -1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+1 1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+1 1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 -1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 -1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 -1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 -1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 -1 1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+-1 1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 -1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 -1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 -1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+1 1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+-1 -1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+1 -1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+-1 -1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+-1 -1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 1 -1 
+1 -1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+-1 1 -1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+-1 -1 1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+1 -1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+-1 -1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+1 1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+1 -1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 -1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+-1 1 1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+1 -1 1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 -1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 -1 1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 -1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 -1 1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+-1 1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 -1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+1 1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+1 -1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 -1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 -1 
+-1 1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+-1 1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+-1 1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+-1 -1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 -1 
+1 1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+-1 1 1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 1 -1 -1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 -1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+-1 1 1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+-1 -1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+-1 -1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+1 1 -1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 -1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 3 4 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+-1 1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 -1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+-1 1 1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 -1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+-1 -1 1 -1 
+1 1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+1 -1 -1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+1 1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+1 -1 -1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+-1 1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+-1 1 1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+-1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+1 1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 -1 -1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 -1 1 -1 
+-1 -1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+-1 1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 -1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 1 1 1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 1 -1 1 
+1 -1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 1 1 1 
+-1 1 -1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 1 
+1 1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 -1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 -1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 3 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+-1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+-1 -1 1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+1 -1 1 -1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 -1 
+1 1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+-1 -1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+1 -1 1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+1 1 1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 4 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+-1 -1 1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 1 
+-1 1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 -1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 -1 1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+1 1 -1 1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 1 -1 1 
+1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 -1 1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 -1 -1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+-1 -1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+-1 1 -1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 1 1 1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+-1 -1 1 1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 -1 
+1 -1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+-1 1 -1 -1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+-1 -1 1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 -1 -1 1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+-1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+-1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+1 1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+-1 -1 -1 -1 
+-1 -1 -1 -1 
+BrutForce Method: Imbalance = 3 --------- S = 1 
+Effective Method: Imbalance = 3
+
+
+1 -1 -1 -1 
+-1 -1 1 1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+1 1 1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 -1 1 
+1 -1 -1 -1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 1 -1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 -1 
+1 1 -1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+1 1 1 -1 
+1 1 -1 -1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 1 
+1 1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 2 3 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 -1 
+-1 1 -1 1 
+-1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+1 1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+1 1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 -1 -1 
+-1 1 -1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 1 -1 -1 
+-1 1 -1 1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+-1 -1 1 -1 
+1 1 -1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+1 -1 -1 1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+1 -1 1 1 
+-1 1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 4 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+1 -1 -1 1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 -1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 -1 
+-1 1 -1 -1 
+1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 1 1 
+1 1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+-1 1 1 -1 
+-1 -1 1 -1 
+1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 -1 
+-1 1 -1 1 
+-1 -1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 1 
+-1 -1 1 -1 
+-1 1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 1 -1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 -1 1 
+-1 1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 1 -1 -1 
+1 -1 -1 1 
+1 -1 -1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 -1 1 
+-1 -1 1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+-1 1 1 -1 
+-1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 -1 -1 -1 
+-1 1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 1 -1 1 
+-1 1 -1 1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 3 4 
+Effective Method: Imbalance = 0
+
+
+-1 -1 1 1 
+1 1 -1 -1 
+1 1 -1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 -1 
+-1 -1 -1 -1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 2 
+Effective Method: Imbalance = 2
+
+
+1 -1 -1 -1 
+-1 -1 1 -1 
+1 1 1 1 
+BrutForce Method: Imbalance = 2 --------- S = 1 3 
+Effective Method: Imbalance = 2
+
+
+1 -1 1 1 
+1 -1 1 1 
+1 -1 1 1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+1 -1 1 1 
+-1 -1 1 -1 
+1 -1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 2 3 
+Effective Method: Imbalance = 0
+
+
+-1 1 1 1 
+-1 1 1 -1 
+-1 1 1 -1 
+BrutForce Method: Imbalance = 0 --------- S = 1 2 
+Effective Method: Imbalance = 0
+
+
+Miss_Match_count = 0
