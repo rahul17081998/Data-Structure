@@ -1,84 +1,116 @@
+/**
+ * Problem Statement:
+ * You are given an undirected, connected, and weighted graph with V vertices and E edges represented as an edge list.
+ * Your task is to implement Prim's Algorithm to find the cost of the Minimum Spanning Tree (MST)
+ * and print the edges that are part of this MST.
+ *
+ * Minimum Spanning Tree:
+ * A Minimum Spanning Tree (MST) is a subset of the edges of a connected, undirected graph
+ * that connects all the vertices together, without any cycles, and with the minimum possible total edge weight.
+ *
+ * What is Prim’s Algorithm?
+ * - Prim’s Algorithm is a greedy algorithm used to find the MST.
+ * - It starts with an arbitrary node and grows the MST one edge at a time by always choosing the edge
+ *   with the smallest weight that connects a new unvisited node.
+ * - The algorithm continues until all nodes are included in the MST.
+ *
+ * Approach:
+ * 1. Convert the edge list to an adjacency list for efficient access.
+ * 2. Use a PriorityQueue (min-heap) to pick the next edge with the smallest weight.
+ * 3. Maintain a visited array to keep track of nodes already in the MST.
+ * 4. Start from node 0 and add a dummy edge (from -1 to 0) to begin the algorithm.
+ * 5. For each selected edge, if it leads to an unvisited node, add its neighboring edges to the queue.
+ * 6. Add the chosen edge to the MST if it leads to an unvisited node.
+ * 7. Print all the edges in the MST and its total weight.
+ */
+
 import java.util.*;
-/*
- Approach:
- Prim's Algorithm to find the Minimum Spanning Tree (MST) of a weighted undirected graph.
- - Initialize all keys as infinite and mstSet[] as false to track included vertices.
- - Start from vertex 0, set its key to 0 to pick it first.
- - Repeatedly pick the vertex with the minimum key value that is not yet included in MST.
- - Include this vertex in MST and update the key values of its adjacent vertices.
- - The parent[] array stores the MST edges.
- - Finally, print the MST edges.
-*/
+
+class Pair {
+    int node;
+    int weight;
+
+    Pair(int node, int weight) {
+        this.node = node;
+        this.weight = weight;
+    }
+}
+
+class Edge {
+    int from;
+    int to;
+    int weight;
+
+    public Edge(int from, int to, int weight) {
+        this.from = from;
+        this.to = to;
+        this.weight = weight;
+    }
+}
+
 public class PrimsAlgorithm {
 
-    static class Pair {
-        int vertex;
-        int weight;
-        Pair(int v, int w) {
-            vertex = v;
-            weight = w;
+    static void createMinimumSpanningTree(int[][] edges, int V) {
+        // Step 1: Convert edge list to adjacency list
+        List<List<Pair>> adj = new ArrayList<>();
+        for (int i = 0; i < V; i++) adj.add(new ArrayList<>());
+
+        for (int[] edge : edges) {
+            int u = edge[0], v = edge[1], wt = edge[2];
+            adj.get(u).add(new Pair(v, wt));
+            adj.get(v).add(new Pair(u, wt));
         }
+
+        // Step 2: Prim's Algorithm using Min Heap
+        PriorityQueue<Edge> pq = new PriorityQueue<>((x, y) -> x.weight - y.weight);
+        boolean[] isVisited = new boolean[V];
+        pq.add(new Edge(-1, 0, 0)); // start with node 0
+
+        int minMstCost = 0;
+        List<Edge> mstEdges = new ArrayList<>();
+
+        while (!pq.isEmpty()) {
+            Edge e = pq.poll();
+            int node = e.to;
+            int wt = e.weight;
+
+            if (isVisited[node]) continue;
+
+            minMstCost += wt;
+            isVisited[node] = true;
+
+            if (e.from != -1) {
+                mstEdges.add(e); // add only real edges (skip the dummy start edge)
+            }
+
+            for (Pair neighbor : adj.get(node)) {
+                if (!isVisited[neighbor.node]) {
+                    pq.add(new Edge(node, neighbor.node, neighbor.weight));
+                }
+            }
+        }
+
+        // Step 3: Output the MST
+        System.out.println("Edges in the MST:");
+        for (Edge e : mstEdges) {
+            System.out.println(e.from + " - " + e.to + " : " + e.weight);
+        }
+        System.out.println("Minimum cost to connect all vertices of MST: " + minMstCost);
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt(); // Number of vertices
-        int m = sc.nextInt(); // Number of edges
-
-        // Adjacency list representation: array of lists of pairs (neighbor, weight)
-        List<List<Pair>> adj = new ArrayList<>();
-        for (int i = 0; i < N; i++) {
-            adj.add(new ArrayList<>());
-        }
-
-        for (int i = 0; i < m; i++) {
-            int a = sc.nextInt();
-            int b = sc.nextInt();
-            int wt = sc.nextInt();
-            adj.get(a).add(new Pair(b, wt));
-            adj.get(b).add(new Pair(a, wt));
-        }
-
-        int[] parent = new int[N];
-        int[] key = new int[N];
-        boolean[] mstSet = new boolean[N];
-
-        Arrays.fill(key, Integer.MAX_VALUE);
-        Arrays.fill(parent, -1);
-
-        key[0] = 0;  // Start from vertex 0
-
-        for (int count = 0; count < N - 1; count++) {
-            int mini = Integer.MAX_VALUE;
-            int u = -1;
-
-            // Pick vertex u not in mstSet with minimum key value
-            for (int v = 0; v < N; v++) {
-                if (!mstSet[v] && key[v] < mini) {
-                    mini = key[v];
-                    u = v;
-                }
-            }
-
-            mstSet[u] = true;
-
-            // Update keys of adjacent vertices of u
-            for (Pair it : adj.get(u)) {
-                int v = it.vertex;
-                int weight = it.weight;
-
-                if (!mstSet[v] && weight < key[v]) {
-                    parent[v] = u;
-                    key[v] = weight;
-                }
-            }
-        }
-
-        // Print MST edges
-        for (int i = 1; i < N; i++) {
-            System.out.println(parent[i] + " - " + i);
-        }
-
-        sc.close();
+        int V = 6;
+        // Format: {from, to, weight}
+        int[][] edges = {
+                {0, 1, 3},
+                {0, 3, 1},
+                {1, 2, 1},
+                {1, 3, 3},
+                {2, 3, 1},
+                {2, 4, 6},
+                {3, 4, 5},
+                {4, 5, 2}
+        };
+        createMinimumSpanningTree(edges, V);
     }
 }
