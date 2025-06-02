@@ -1,20 +1,59 @@
 import java.util.*;
-/*
- Approach:
- Tarjan's Algorithm is used to find Strongly Connected Components (SCCs) in a directed graph.
- - Perform a DFS traversal keeping track of discovery times and low-link values for each vertex.
- - Use a stack to store the vertices of the current DFS path.
- - The low-link value of a node represents the earliest visited vertex reachable from that node.
- - When a node's discovery time equals its low-link value, it is the root of an SCC.
- - Pop all vertices from the stack up to this node to form one SCC.
- - Repeat for all nodes to find all SCCs.
-*/
+
+/**
+ * Tarjan's Algorithm - Finding Strongly Connected Components (SCCs)
+ * ------------------------------------------------------------------
+ *
+ * What is an SCC?
+ * ----------------
+ * A Strongly Connected Component (SCC) of a directed graph is a maximal set of vertices
+ * such that for every pair of vertices u and v in the set:
+ *  - There is a path from u to v, and from v to u.
+ *
+ * What is Tarjan’s Algorithm?
+ * ---------------------------
+ * Tarjan’s algorithm is a single-pass Depth-First Search (DFS) based method
+ * to identify all SCCs in a **directed graph** in **O(V + E)** time.
+ *
+ * Benefits:
+ * ---------
+ * ✅ Faster than Kosaraju's (one-pass DFS)
+ * ✅ Memory efficient (no graph transposition)
+ * ✅ Great for detecting cycles and dependencies
+ * ✅ Used in compilers, deadlock detection, social networks, etc.
+ *
+ * Approach:
+ * ---------
+ * 1. Perform a DFS traversal of the graph.
+ * 2. For each node `u`, assign:
+ *    - `disc[u]`: the discovery time of node u
+ *    - `low[u]`: the earliest discovered node reachable from u (includes back edges)
+ *
+ * 3. Push every node visited into a stack. This stack represents the current DFS path.
+ * 4. For each adjacent node `v` of `u`:
+ *    - If `v` is not visited, recursively call DFS on `v` and update `low[u] = min(low[u], low[v])`
+ *    - If `v` is in the current stack (i.e., part of the DFS path), update `low[u] = min(low[u], disc[v])`
+ *
+ * 5. After visiting all neighbors, if `low[u] == disc[u]`, then:
+ *    - `u` is the **root of an SCC**
+ *    - Pop all nodes from the stack until `u` is reached
+ *    - These popped nodes form one SCC
+ *
+ * 6. Repeat this for all unvisited nodes.
+ *
+ * Time Complexity: O(V + E)
+ * Space Complexity: O(V)
+ */
+
 public class TarjansAlgorithm {
 
-    private int time = 0;
-    private List<List<Integer>> adj;
-    private int V;
+    private int time = 0;                 // Global time counter for DFS
+    private List<List<Integer>> adj;     // Adjacency list
+    private int V;                       // Number of vertices
 
+    /**
+     * Constructor to initialize graph with V vertices
+     */
     public TarjansAlgorithm(int V) {
         this.V = V;
         adj = new ArrayList<>();
@@ -23,10 +62,17 @@ public class TarjansAlgorithm {
         }
     }
 
+    /**
+     * Add a directed edge from u to v
+     */
     public void addEdge(int u, int v) {
         adj.get(u).add(v);
     }
 
+    /**
+     * Recursive DFS function to compute discovery and low-link values
+     * and find SCCs rooted at vertex u
+     */
     private void dfsRec(int u, int[] disc, int[] low, Deque<Integer> stack, boolean[] stackMember) {
         disc[u] = low[u] = ++time;
         stack.push(u);
@@ -41,6 +87,7 @@ public class TarjansAlgorithm {
             }
         }
 
+        // If u is the head node of an SCC
         if (low[u] == disc[u]) {
             System.out.print("SCC: ");
             while (stack.peek() != u) {
@@ -54,15 +101,17 @@ public class TarjansAlgorithm {
         }
     }
 
+    /**
+     * Main function to find and print all SCCs in the graph
+     */
     public void findSCCs() {
-        int[] disc = new int[V];
-        int[] low = new int[V];
-        boolean[] stackMember = new boolean[V];
+        int[] disc = new int[V];          // Discovery times
+        int[] low = new int[V];           // Low-link values
+        boolean[] stackMember = new boolean[V]; // Whether node is in current DFS stack
         Deque<Integer> stack = new ArrayDeque<>();
 
         Arrays.fill(disc, -1);
         Arrays.fill(low, -1);
-        Arrays.fill(stackMember, false);
 
         for (int i = 0; i < V; i++) {
             if (disc[i] == -1) {
@@ -71,6 +120,9 @@ public class TarjansAlgorithm {
         }
     }
 
+    /**
+     * Example usage with test graphs
+     */
     public static void main(String[] args) {
         System.out.println("SCCs in first graph:");
         TarjansAlgorithm g1 = new TarjansAlgorithm(5);

@@ -1,13 +1,41 @@
 /*
-Approach: Floyd-Warshall Algorithm for All-Pairs Shortest Path
---------------------------------------------------------------
-- Initialize the distance matrix with the input graph matrix.
-- Update distances by considering each vertex as an intermediate node (k).
-- For each pair (i, j), check if path i->k->j is shorter than current i->j.
-- Update dist[i][j] if shorter path is found.
-- Detect negative weight cycles if dist[i][i] < 0 for any i.
-- Finally, print shortest distances between all pairs.
-*/
+ * Approach: Floyd-Warshall Algorithm for All-Pairs Shortest Path
+ * --------------------------------------------------------------
+ * The Floyd-Warshall algorithm finds shortest paths between all pairs of vertices
+ * in a weighted graph (with positive or negative edge weights but no negative cycles).
+ *
+ * How it works:
+ * - Initialize a distance matrix 'dist' same as the input graph adjacency matrix.
+ * - Consider each vertex 'k' as an intermediate point on the path between vertices 'i' and 'j'.
+ * - For every pair (i, j), update dist[i][j] if going through 'k' gives a shorter path:
+ *   dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])
+ * - Repeat for all vertices as intermediate nodes.
+ *
+ * Negative cycle detection:
+ * - If dist[i][i] < 0 for any vertex 'i', it means there is a negative weight cycle in the graph.
+ *
+ * Time Complexity:
+ * - O(V^3), where V is the number of vertices.
+ * - Because it uses three nested loops over all vertices.
+ *
+ * Space Complexity:
+ * - O(V^2) for storing the distance matrix.
+ *
+ * Benefits of Floyd-Warshall Algorithm:
+ * -------------------------------------
+ * 1. Handles both positive and negative edge weights (unlike Dijkstra which only works with non-negative weights).
+ * 2. Detects presence of negative weight cycles in the graph.
+ * 3. Computes shortest paths between **all pairs** of vertices simultaneously.
+ * 4. Simple and easy to implement with a clear DP approach.
+ *
+ * When to use:
+ * - When you need shortest path information between all pairs of vertices, not just from a single source.
+ * - When the graph is dense, Floyd-Warshall is often more efficient and simpler than running Dijkstra V times.
+ * - When negative edges are present but no negative cycles.
+ *
+ * Limitations:
+ * - For very large graphs, O(V^3) time can be expensive compared to specialized algorithms.
+ */
 
 import java.util.Arrays;
 

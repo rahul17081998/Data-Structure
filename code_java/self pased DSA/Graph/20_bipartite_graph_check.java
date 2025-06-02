@@ -1,14 +1,40 @@
 /*
-Approach: Check if a graph is Bipartite using BFS coloring
------------------------------------------------------------
-- Initialize all vertices with color -1 (uncolored).
-- For each uncolored vertex, perform BFS:
-  - Color the source vertex with color 1.
-  - For each adjacent vertex:
-    - If uncolored, color it with the opposite color.
-    - If already colored with the same color as the current vertex, graph is NOT bipartite.
-- If no conflicts, graph is bipartite.
-*/
+ * What is a Bipartite Graph?
+ * ---------------------------
+ * A graph is called bipartite if we can split its set of vertices into two
+ * disjoint subsets such that every edge connects a vertex from one subset
+ * to a vertex from the other subset. In other words, no two vertices within
+ * the same subset are adjacent.
+ *
+ * Why check for Bipartiteness?
+ * -----------------------------
+ * Bipartite graphs are important in many applications like matching problems,
+ * scheduling, and coloring problems.
+ *
+ * How to Check if a Graph is Bipartite?
+ * -------------------------------------
+ * We use a graph coloring approach with two colors (say 0 and 1):
+ * - Initialize all vertices as uncolored (-1).
+ * - For each uncolored vertex, perform a BFS traversal:
+ *     - Assign a color (0) to the source vertex.
+ *     - For each adjacent vertex:
+ *         - If uncolored, assign the opposite color.
+ *         - If already colored with the same color as the current vertex,
+ *           then the graph is NOT bipartite.
+ * - If no conflicts are found, the graph is bipartite.
+ *
+ * Time Complexity:
+ * ----------------
+ * The BFS traversal visits each vertex and edge once.
+ * - V = number of vertices
+ * - E = number of edges
+ * Time Complexity = O(V + E)
+ *
+ * Space Complexity:
+ * -----------------
+ * - O(V) for color array and queue
+ * - O(V + E) for adjacency list representation
+ */
 
 import java.util.*;
 

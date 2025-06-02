@@ -1,76 +1,122 @@
 import java.util.*;
-/*
- Approach:
- Kosaraju's algorithm finds strongly connected components (SCCs) in a directed graph.
- Steps:
- 1. Perform DFS on the original graph, pushing nodes onto a stack in order of completion time.
- 2. Transpose the graph by reversing all edges.
- 3. Perform DFS on the transposed graph in the order defined by the stack.
-    Each DFS traversal in this step produces one strongly connected component.
-*/
-public class KosarajuSCC {
 
-    static void dfs(int node, Stack<Integer> stack, boolean[] visited, List<List<Integer>> adj) {
-        visited[node] = true;
-        for (int nbr : adj.get(node)) {
-            if (!visited[nbr]) {
-                dfs(nbr, stack, visited, adj);
-            }
-        }
-        stack.push(node);
+/**
+ * What is SCC (Strongly Connected Component)?
+ * -------------------------------------------
+ * A Strongly Connected Component in a directed graph is a maximal group of vertices such that
+ * there is a path from every vertex to every other vertex in the group (i.e., u → v and v → u).
+ *
+ * What is Kosaraju’s Algorithm?
+ * -----------------------------
+ * Kosaraju's Algorithm is a graph traversal technique used to find all strongly connected components (SCCs)
+ * in a directed graph. It runs in linear time O(V + E), where V is the number of vertices and E is the number of edges.
+ *
+ * Approach:
+ * ---------
+ * Kosaraju's Algorithm involves three main steps:
+ *
+ * 1. **First DFS (Original Graph)**:
+ *    - Perform a depth-first search (DFS) on the original graph.
+ *    - Track the **finishing time** of each vertex (i.e., when all its descendants are done).
+ *    - Push the vertex onto a stack when it finishes.
+ *    - The stack stores vertices in **reverse topological order**.
+ *
+ * 2. **Transpose the Graph**:
+ *    - Reverse the direction of all edges in the graph.
+ *    - This allows us to explore original components in reverse.
+ *
+ * 3. **Second DFS (Transposed Graph)**:
+ *    - Pop vertices one by one from the stack and perform DFS on the transposed graph.
+ *    - Each DFS traversal from an unvisited node gives a complete SCC.
+ *
+ * Why finishing time matters:
+ * ---------------------------
+ * Finishing time ensures that when we reverse the graph, we visit the "last completed" nodes first,
+ * which guarantees that each DFS in the transposed graph reaches the entire SCC in one go.
+ */
+
+public class KosarajuAlgorithm {
+
+    // Adds a directed edge from u to v
+    static void addEdge(List<List<Integer>> graph, int u, int v) {
+        graph.get(u).add(v);
     }
 
-    static void revDfs(int node, boolean[] visited, List<List<Integer>> transpose) {
-        System.out.print(node + " ");
+    // Step 1: DFS to fill stack according to finishing times
+    static void dfs(int node, boolean[] visited, Stack<Integer> stack, List<List<Integer>> graph) {
         visited[node] = true;
-        for (int nbr : transpose.get(node)) {
-            if (!visited[nbr]) {
-                revDfs(nbr, visited, transpose);
+        for (int neighbor : graph.get(node)) {
+            if (!visited[neighbor]) {
+                dfs(neighbor, visited, stack, graph);
+            }
+        }
+        stack.push(node); // push after all descendants are visited (finishing time)
+    }
+
+    // Step 2: Transpose (reverse) the graph
+    static List<List<Integer>> transposeGraph(List<List<Integer>> graph, int V) {
+        List<List<Integer>> transposed = new ArrayList<>();
+        for (int i = 0; i < V; i++) transposed.add(new ArrayList<>());
+
+        for (int u = 0; u < V; u++) {
+            for (int v : graph.get(u)) {
+                transposed.get(v).add(u); // reverse the edge
+            }
+        }
+        return transposed;
+    }
+
+    // Step 3: DFS on transposed graph to collect one SCC
+    static void reverseDfs(int node, boolean[] visited, List<Integer> component, List<List<Integer>> transposed) {
+        visited[node] = true;
+        component.add(node);
+        for (int neighbor : transposed.get(node)) {
+            if (!visited[neighbor]) {
+                reverseDfs(neighbor, visited, component, transposed);
+            }
+        }
+    }
+
+    // Main Kosaraju function to find and print all SCCs
+    public static void kosaraju(int V, List<List<Integer>> graph) {
+        Stack<Integer> stack = new Stack<>();
+        boolean[] visited = new boolean[V];
+
+        // Step 1: Perform DFS and store vertices by finishing time
+        for (int i = 0; i < V; i++) {
+            if (!visited[i]) {
+                dfs(i, visited, stack, graph);
+            }
+        }
+
+        // Step 2: Transpose the graph
+        List<List<Integer>> transposed = transposeGraph(graph, V);
+
+        // Step 3: Perform DFS on transposed graph in order of finishing time
+        Arrays.fill(visited, false);
+        System.out.println("Strongly Connected Components:");
+        while (!stack.isEmpty()) {
+            int node = stack.pop();
+            if (!visited[node]) {
+                List<Integer> component = new ArrayList<>();
+                reverseDfs(node, visited, component, transposed);
+                System.out.println(component);
             }
         }
     }
 
     public static void main(String[] args) {
-        int n = 6; // number of nodes
-        List<List<Integer>> adj = new ArrayList<>();
-        for (int i = 0; i < n; i++) adj.add(new ArrayList<>());
+        int V = 5;
+        List<List<Integer>> graph = new ArrayList<>();
+        for (int i = 0; i < V; i++) graph.add(new ArrayList<>());
 
-        // Build the graph
-        adj.get(1).add(3);
-        adj.get(2).add(1);
-        adj.get(3).add(2);
-        adj.get(3).add(5);
-        adj.get(4).add(6);
-        adj.get(5).add(4);
-        adj.get(6).add(5);
+        // Directed graph
+        addEdge(graph, 0, 2);
+        addEdge(graph, 2, 1);
+        addEdge(graph, 1, 0);
+        addEdge(graph, 0, 3);
+        addEdge(graph, 3, 4);
 
-        // Step 1: DFS to fill stack according to finishing times
-        Stack<Integer> stack = new Stack<>();
-        boolean[] visited = new boolean[n];
-        for (int i = 0; i < n; i++) {
-            if (!visited[i]) {
-                dfs(i, stack, visited, adj);
-            }
-        }
-
-        // Step 2: Transpose the graph
-        List<List<Integer>> transpose = new ArrayList<>();
-        for (int i = 0; i < n; i++) transpose.add(new ArrayList<>());
-        for (int i = 0; i < n; i++) {
-            for (int nbr : adj.get(i)) {
-                transpose.get(nbr).add(i);
-            }
-        }
-
-        // Step 3: DFS according to finishing times on transposed graph
-        Arrays.fill(visited, false);
-        while (!stack.isEmpty()) {
-            int node = stack.pop();
-            if (!visited[node]) {
-                System.out.print("SCC: ");
-                revDfs(node, visited, transpose);
-                System.out.println();
-            }
-        }
+        kosaraju(V, graph);
     }
 }
