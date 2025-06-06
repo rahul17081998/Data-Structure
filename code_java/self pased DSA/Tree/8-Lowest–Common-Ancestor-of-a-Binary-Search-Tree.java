@@ -1,19 +1,31 @@
 /**
  * Problem Summary:
- * Given a Binary Search Tree (BST), find the lowest common ancestor (LCA) of two given nodes p and q.
- * The LCA is defined as the lowest node in the BST that has both p and q as descendants
- * (a node can be a descendant of itself).
+ * ----------------
+ * Given a Binary Search Tree (BST) and two nodes p and q, find their Lowest Common Ancestor (LCA).
+ * The LCA is the lowest node in the tree that has both p and q as descendants.
+ * A node can be a descendant of itself.
  *
  * Approach:
- * 1. Traverse the tree from root to find the path for node p.
- * 2. Traverse the tree from root to find the path for node q.
- * 3. Store these paths in two separate lists.
- * 4. Use a HashSet to store nodes from the path of p for quick lookup.
- * 5. Traverse the path of q from the end towards the start and find the first node
- *    that is also present in the path of p — this node is the LCA.
+ * ---------
+ * 1. Find the path from the root to node p and store it in a list.
+ * 2. Find the path from the root to node q and store it in another list.
+ * 3. Use a HashSet to store all nodes in p's path for O(1) lookup.
+ * 4. Traverse q's path from the end towards the start, and find the first node
+ *    that is also in p's path. This node is the LCA.
  *
- * This approach works by explicitly storing the paths to both nodes and then
- * finding the deepest common node on these paths.
+ * Why this approach works:
+ * ------------------------
+ * - Both paths start at the root and end at p and q respectively.
+ * - The LCA is the deepest node where the two paths intersect.
+ * - Storing paths explicitly lets us find the intersection efficiently.
+ *
+ * Time Complexity:
+ * ----------------
+ * O(N) to find both paths in worst case.
+ *
+ * Space Complexity:
+ * -----------------
+ * O(N) for storing paths.
  */
 
 import java.util.*;
@@ -26,46 +38,62 @@ public class Solution {
         TreeNode(int x) { val = x; }
     }
 
-    // Helper method to find the path from root to target node and store it in 'path'
+    /**
+     * Helper method to find the path from root to target node.
+     * It uses preorder traversal to store nodes along the path.
+     *
+     * @param root Current node in traversal.
+     * @param target Node to find.
+     * @param path Temporary path from root to current node.
+     * @param ans Final path from root to target.
+     */
     private void preOrder(TreeNode root, TreeNode target, List<TreeNode> path, List<TreeNode> ans) {
         if (root == null) return;
 
         path.add(root);
 
         if (root == target) {
-            ans.addAll(path);
+            ans.addAll(path); // Copy current path to answer
             return;
         }
 
         preOrder(root.left, target, path, ans);
         preOrder(root.right, target, path, ans);
 
-        // Backtrack: remove current node from path when returning to previous node
+        // Backtrack: remove current node before returning to previous level
         path.remove(path.size() - 1);
     }
 
+    /**
+     * Main method to find LCA.
+     * Steps:
+     * - Find path from root to p
+     * - Find path from root to q
+     * - Use a HashSet for quick membership test of nodes in p's path
+     * - Traverse q's path from the end and return the first common node found
+     *
+     * @param root Root of the BST
+     * @param p Node p
+     * @param q Node q
+     * @return Lowest Common Ancestor node
+     */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         List<TreeNode> path1 = new ArrayList<>();
         List<TreeNode> path2 = new ArrayList<>();
         List<TreeNode> tempPath = new ArrayList<>();
 
-        // Find path from root to p
         preOrder(root, p, tempPath, path1);
-        // Clear tempPath and reuse for q
         tempPath.clear();
-        // Find path from root to q
         preOrder(root, q, tempPath, path2);
 
-        // Insert all nodes of path1 into a HashSet for O(1) lookup
         Set<TreeNode> set = new HashSet<>(path1);
 
-        // Traverse path2 from the end to start to find first common node in path1
         for (int i = path2.size() - 1; i >= 0; i--) {
             if (set.contains(path2.get(i))) {
                 return path2.get(i);
             }
         }
 
-        return null; // LCA not found (should not happen given valid inputs)
+        return null; // No common ancestor found (should not happen)
     }
 }

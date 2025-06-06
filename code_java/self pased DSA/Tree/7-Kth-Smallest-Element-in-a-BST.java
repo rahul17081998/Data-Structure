@@ -4,18 +4,32 @@
  * Given the root of a Binary Search Tree (BST) and an integer k,
  * find the kth smallest element in the BST.
  *
- * A BST is a binary tree where the left subtree contains only nodes with values less than the root,
- * and the right subtree only nodes with values greater than the root.
+ * A BST has the property that the left subtree of a node contains only nodes
+ * with values less than the node's value, and the right subtree contains nodes with values greater.
  *
- * The in-order traversal of a BST yields values in sorted (ascending) order.
- * So, the kth element in this traversal is the kth smallest element.
+ * In-order traversal of BST yields nodes in ascending sorted order.
+ * So the kth node visited in in-order traversal is the kth smallest element.
  *
  * Approach:
  * ---------
- * - Use in-order traversal (Left -> Node -> Right).
- * - Maintain a counter that increments as we visit nodes.
- * - When the counter reaches k, record the current node’s value as the result.
- * - Terminate traversal once the kth smallest is found to save time.
+ * - Perform in-order traversal (Left -> Node -> Right) because it visits nodes in ascending order.
+ * - Maintain a counter to count how many nodes have been visited so far.
+ * - When the counter equals k, record the node's value as the answer.
+ * - Stop further traversal once kth smallest is found to optimize performance.
+ *
+ * Why this approach works:
+ * -----------------------
+ * - In-order traversal naturally sorts BST elements.
+ * - Counting nodes during traversal tracks when we reach the kth smallest.
+ * - Early stopping avoids unnecessary visits.
+ *
+ * Time Complexity:
+ * ----------------
+ * O(H + k), where H is the height of the tree. In worst case O(N).
+ *
+ * Space Complexity:
+ * -----------------
+ * O(H) due to recursion stack, where H is height of BST.
  */
 
 class TreeNode {
@@ -36,17 +50,14 @@ public class Solution {
     private void inorder(TreeNode node, int k) {
         if (node == null) return;
 
-        // Traverse left subtree
         inorder(node.left, k);
 
-        // Visit current node
         count++;
         if (count == k) {
             result = node.val;
-            return; // Early exit
+            return; // Early exit once kth smallest is found
         }
 
-        // Traverse right subtree
         inorder(node.right, k);
     }
 }

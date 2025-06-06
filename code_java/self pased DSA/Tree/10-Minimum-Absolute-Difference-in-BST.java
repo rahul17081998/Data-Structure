@@ -1,16 +1,48 @@
 /**
  * Problem Summary:
- * Given a Binary Search Tree (BST), find the minimum absolute difference
- * between values of any two nodes in the tree.
+ * ----------------
+ * We are given a Binary Search Tree (BST), and we want to find the minimum absolute difference
+ * between values of any two nodes in that tree.
  *
- * Approach:
- * Since the BST's in-order traversal yields nodes in sorted order,
- * we can perform an in-order traversal to visit nodes in ascending order.
- * By keeping track of the previous node's value during traversal,
- * we calculate the difference between the current node and the previous node,
- * and update the minimum difference found so far.
- * This approach runs in O(n) time where n is the number of nodes in the BST,
- * and uses O(h) space due to recursion stack, where h is the height of the tree.
+ * Why is this problem interesting?
+ * - The BST property guarantees that for any node, all nodes in the left subtree are smaller
+ *   and all nodes in the right subtree are larger.
+ * - This sorted order of nodes can be exploited to find minimum differences efficiently.
+ *
+ * Algorithm and Approach:
+ * -----------------------
+ * 1. In-order traversal of a BST:
+ *    - Visiting nodes in the order: left child -> node -> right child.
+ *    - This traversal produces nodes in sorted ascending order.
+ *    - So, if we list out node values during in-order traversal, the list will be sorted.
+ *
+ * 2. Minimum difference in a sorted list:
+ *    - The minimum absolute difference between any two numbers in a sorted list
+ *      must be found between some pair of adjacent elements.
+ *    - Hence, we only need to check consecutive nodes during the traversal instead of all pairs.
+ *
+ * 3. Tracking state during traversal:
+ *    - Maintain a variable `lastNodeValue` to store the value of the previously visited node.
+ *    - Maintain `minDiff` initialized to a large value (e.g., Integer.MAX_VALUE).
+ *    - For each node visited:
+ *       * Calculate the difference between current node's value and `lastNodeValue`.
+ *       * Update `minDiff` if the current difference is smaller.
+ *       * Update `lastNodeValue` to current node’s value.
+ *
+ * 4. Result:
+ *    - After the traversal completes, `minDiff` holds the minimum absolute difference between any two nodes.
+ *
+ * Why This Works:
+ * ---------------
+ * - Because the BST in-order traversal outputs sorted values, checking adjacent nodes guarantees
+ *   that no smaller difference exists beyond these neighbors.
+ * - If we compared non-adjacent nodes, the difference would only be equal or larger.
+ * - This reduces a potential O(n^2) problem (checking all pairs) to O(n).
+ *
+ * Complexity:
+ * -----------
+ * - Time Complexity: O(n), where n is the number of nodes, as each node is visited once.
+ * - Space Complexity: O(h), where h is the height of the tree, due to recursion stack space.
  */
 
 public class Solution {

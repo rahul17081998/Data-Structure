@@ -1,25 +1,45 @@
-/*
-Problem Summary:
-You are given the root of a binary tree where each node has a unique value from 1 to n.
-You are also given a sequence "voyage" which represents the desired preorder traversal of the tree.
-You can "flip" a node by swapping its left and right children.
-The goal is to flip the minimum number of nodes so that the preorder traversal of the tree matches the given voyage.
-Return a list of the values of all flipped nodes. If it's impossible to match the voyage, return a list containing only -1.
-
-Approach:
-- Use a recursive DFS to traverse the tree in preorder.
-- Maintain an index to track the current position in the voyage array.
-- At each node, check if the node value matches voyage[index].
-- If not, return false (impossible to match).
-- Otherwise, increment index and check the left child.
-- If the left child's value does not match voyage[index], flip the current node by visiting right first then left.
-- Record the node's value in the flip result list when a flip occurs.
-- Continue recursively, and if any step fails, return false.
-- If the entire traversal matches the voyage, return the list of flipped nodes.
-
-Time Complexity: O(n), where n is the number of nodes.
-Space Complexity: O(n) due to recursion stack and result list.
-*/
+/**
+ * Problem Summary:
+ * ----------------
+ * Given the root of a binary tree where each node has a unique value from 1 to n,
+ * and a sequence "voyage" representing the desired preorder traversal of the tree,
+ * you can "flip" a node by swapping its left and right children.
+ * The goal is to flip the minimum number of nodes so that the preorder traversal matches the voyage.
+ * Return a list of the values of all flipped nodes.
+ * If it's impossible to match the voyage, return a list containing only -1.
+ *
+ * Approach:
+ * ----------------
+ * - Use a recursive Depth-First Search (DFS) to simulate the preorder traversal.
+ * - Maintain an index pointer to track the current position in the voyage array.
+ * - For each node:
+ *   - Check if the node's value matches voyage[index].
+ *     - If not, return false immediately (no way to match voyage).
+ *   - Increment index (move to next expected node in voyage).
+ *   - Check if left child exists and matches voyage[index].
+ *     - If it doesn't match, it means we need to flip this node (swap left and right children).
+ *     - Record the current node's value in the result list to indicate a flip.
+ *     - Visit the right child first, then the left child.
+ *   - Otherwise, visit left child first, then right child.
+ * - Continue recursively until entire tree is traversed.
+ * - If all nodes match voyage correctly, return the flip list.
+ * - Otherwise, return [-1].
+ *
+ * Why This Approach Works:
+ * -------------------------
+ * - Preorder traversal order is root -> left -> right.
+ * - By matching voyage step-by-step, we ensure correctness.
+ * - The flip is needed only if the next expected node is on the right child.
+ * - Recursively verifying both subtrees confirms if the entire tree matches the voyage.
+ *
+ * Time Complexity:
+ * -----------------
+ * O(n) - We visit each node once.
+ *
+ * Space Complexity:
+ * ------------------
+ * O(n) - Recursion stack in worst case (skewed tree) + result list.
+ */
 
 import java.util.*;
 
@@ -46,17 +66,17 @@ public class Solution {
         index++;
 
         if (root.left != null && root.left.val != voyage[index]) {
-            // Need to flip: visit right subtree first, then left subtree
+            // Flip required: visit right child first, then left child
             result.add(root.val);
             return dfs(root.right) && dfs(root.left);
         } else {
-            // No flip needed
+            // No flip required: visit left child then right child
             return dfs(root.left) && dfs(root.right);
         }
     }
 }
 
-// Definition for a binary tree node (usually provided in coding platforms).
+// TreeNode definition (usually provided in coding platforms)
 class TreeNode {
     int val;
     TreeNode left;

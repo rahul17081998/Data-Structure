@@ -1,19 +1,42 @@
-/*
-Problem Summary:
-Given a binary tree, a node X is called "good" if in the path from the root to X, 
-there are no nodes with a value greater than X. 
-We need to return the count of such "good" nodes in the binary tree.
-
-Approach:
-- Perform a pre-order traversal of the tree.
-- Keep track of the maximum value encountered from the root to the current node.
-- For each node, if its value is greater than or equal to the maximum value so far, it is a "good" node.
-- Update the maximum value while traversing.
-- Accumulate the count of "good" nodes.
-- Return the total count after the traversal is complete.
-
-Time Complexity: O(N), where N is the number of nodes in the tree.
-*/
+/**
+ * Problem Summary:
+ * Given a binary tree, a node X is called "good" if in the path from the root to X,
+ * there are no nodes with a value greater than X.
+ * We need to return the count of such "good" nodes in the binary tree.
+ *
+ * Example:
+ *          3
+ *        /   \
+ *       1     4
+ *      /     / \
+ *     3     1   5
+ * Good nodes here are: 3 (root), 3 (left-left), 4, and 5 → total 4.
+ *
+ * Approach:
+ * - Use a Preorder traversal (root -> left -> right) to explore the tree.
+ * - Maintain a variable `maxValue` which tracks the maximum value seen on the path from root to current node.
+ * - For each node:
+ *     - If node's value >= maxValue, it is a "good" node.
+ *     - Update maxValue for child calls to max(maxValue, node's value).
+ * - Accumulate count of good nodes in a global or class variable.
+ * - Return the count after traversal completes.
+ *
+ * Why this works:
+ * - We carry forward the maximum value seen so far from root to the current node.
+ * - If the current node's value is >= that max, it means no node in the path is greater.
+ * - Hence the node qualifies as "good."
+ *
+ * Steps to solve:
+ * 1. Initialize count to zero.
+ * 2. Traverse the tree starting from root with maxValue = root.key.
+ * 3. For each node, check if it's good and update count.
+ * 4. Update maxValue for recursive calls.
+ * 5. Continue until all nodes are processed.
+ * 6. Return the count.
+ *
+ * Time Complexity: O(N), N = number of nodes (each node visited once).
+ * Space Complexity: O(H), H = height of tree (recursion stack).
+ */
 
 class Node {
     int key;
