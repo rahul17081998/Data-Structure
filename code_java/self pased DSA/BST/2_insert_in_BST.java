@@ -81,6 +81,40 @@ public class BSTInsertion {
         return root;
     }
 
+
+    // Delete a node in BST
+    public static Node delete(Node root, int key) {
+        if (root == null) return null;
+
+        if (key < root.key) {
+            root.left = delete(root.left, key);
+        } else if (key > root.key) {
+            root.right = delete(root.right, key);
+        } else {
+            // Node found
+            if (root.left == null)
+                return root.right;
+            else if (root.right == null)
+                return root.left;
+
+            // Node with two children: Get inorder successor (smallest in right subtree)
+            root.key = minValue(root.right);
+            // Delete the inorder successor
+            root.right = delete(root.right, root.key);
+        }
+        return root;
+    }
+
+    // Helper function to find the minimum value node
+    private static int minValue(Node root) {
+        int min = root.key;
+        while (root.left != null) {
+            root = root.left;
+            min = root.key;
+        }
+        return min;
+    }
+
     // Inorder traversal
     public static void inorder(Node root) {
         if (root != null) {
